@@ -6,7 +6,7 @@
 		"subtopics": [
 			{
 				"subtopic": "Basic R",
-				"link": ""
+				"link": "basic_R_tutorial.html"
 			},
 			{
 				"subtopic": "R Markdown",
