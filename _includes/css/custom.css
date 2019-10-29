@@ -1,0 +1,89 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.navbar-custom .navbar-brand .brand-fig {
+  height: 23px;
+}
+
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+  line-height: 65px;
+}
+.intro .intro-body .brand-heading a {
+  text-decoration: underline;
+}
+.intro .intro-body .intro-text {
+  font-size: 15px;
+}
+.intro .intro-body .intro-text-2 {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+.intro .intro-body .intro-text-2 a {
+  font-size: 15px;
+  color: white;
+  text-decoration: underline;
+}
+.intro .intro-body .brand-heading-top {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+.intro .intro-body .brand-heading-top2 {
+    font-size: 15px;
+    margin: 0 0 0px;
+    color: white;
+  }
+.intro .intro-body .brand-heading-top2 a {
+  text-decoration: underline;
+  color: white;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 52px;
+  }
+  .intro .intro-body .brand-heading-top {
+    font-size: 32px;
+    margin: 0 0 15px;
+  }
+  .intro .intro-body .brand-heading-top2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+    letter-spacing: 0px;
+  }
+  .intro .intro-body .brand-heading-top2 a {
+    text-decoration: underline;
+    color: white;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 20px;
+  }
+  .intro .intro-body .intro-text-2 {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .intro .intro-body .oc {
+    margin-top: 120px;
+  }
+}
+
+.btn-about {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+}
+.btn-about:hover,
+.btn-about:focus {
+  border: 1px solid #a90533;
+  outline: none;
+  color: white;
+  background-color: #a90533;
+}
