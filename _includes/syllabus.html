@@ -4,8 +4,36 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Syllabus</h2>
-                    
+                    {% assign topics = site.data.syllabus %}
+                    {% for topic in topics %}
+                    <div class="card border-light">
+                  <div class="card-body">
+                    <h3 class="card-title">Day {{ topic.id }}: {{ topic.topic }}</h3>
+                    <p class="card-text"> 
+                      {{ topic.desc }}
+                    </p>
+
+                    <h5 class="card-subtitle"> 
+                      <a data-toggle="collapse" href="#collapseDescription{{ topic.id }}" aria-expanded="false" aria-controls="collapseDescription{{ topic.id }}">
+                        Show all
+                      </a>
+                    </h5>
+                    <div class="collapse" id="collapseDescription{{ topic.id }}">
+                      <div class="list-group" style="margin-top:20px">
+                        {% for subtopic in topic.subtopics %}
+                        <a href="{{subtopic.link}}" class="list-group-item">
+                        <p class="list-group-item-heading">
+                        {{ subtopic.subtopic }} 
+                        </p>
+                        </a>
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+                    {% endfor %}
                 </div>
             </div>
         </div>
     </section>
+</script>

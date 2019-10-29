@@ -1,0 +1,51 @@
+[
+	{
+		"id": 1,
+		"topic": "R",
+		"desc": "This tutorial is designed to get you up and running with R as quickly as possible.",
+		"subtopics": [
+			{
+				"subtopic": "Basic R",
+				"link": ""
+			},
+			{
+				"subtopic": "R Markdown",
+				"link": ""
+			}
+		]
+	}, 
+	{
+		"id": 2,
+		"topic": "Regression",
+		"desc": "",
+		"subtopics": [
+			{
+				"subtopic": "Linear regression",
+				"link": ""
+			},
+			{
+				"subtopic": "Logistics Regression",
+				"link": ""
+			},
+			{
+				"subtopic": "LASSO",
+				"link": ""
+			}
+		]
+	}, 
+	{
+		"id": 3,
+		"topic": "Emsemble methods",
+		"desc": "",
+		"subtopics": [
+			{
+				"subtopic": "Tree",
+				"link": ""
+			},
+			{
+				"subtopic": "Random forest",
+				"link": ""
+			}
+		]
+	}
+]
