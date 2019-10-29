@@ -8,6 +8,37 @@
   height: 23px;
 }
 
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(/img/bg-small.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+@media (min-width: 768px) {
+  .intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(/img/bg.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
 .intro .intro-body .brand-heading {
   font-size: 40px;
   line-height: 65px;
@@ -86,4 +117,47 @@
   outline: none;
   color: white;
   background-color: #a90533;
+}
+
+
+.about p {
+  font-size: 18px;
+  text-align: justify;
+}
+.about a {
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+}
+.about a:hover{
+  color: #a90533;
+}
+
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: none;
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.download-section p {
+  color: black;
+}
+.download-section h2 {
+  color: black;
+  margin: 0 0 20px;
+}
+.download-section .table a {
+  color: #026cb5;
+  font-size: 14px;
+}
+.download-section .table a:hover {
+  text-decoration: underline;
+  color: #a90533;
 }
