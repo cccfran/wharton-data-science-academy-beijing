@@ -15,7 +15,7 @@
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(/img/bg-small.jpg) no-repeat bottom center scroll;
+  background: url(../../img/bg-small.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -30,7 +30,7 @@
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(/img/bg.jpg) no-repeat bottom center scroll;
+    background: url(../../img/bg.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
